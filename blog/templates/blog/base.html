@@ -18,11 +18,11 @@
                         <span class="glyphicon glyphicon-edit"></span>
                         {% include './icons/card-list.svg' %}
                     </a>
-                    <p class="top-menu">
-                        Hello {{ user.username }} 
-                        <small>(<a href="{% url 'logout' %}" class="btn comment">
-                                    Log out
-                                </a>)</small>
+                    <p class="label">
+                        Hello {{ user.username }} (
+                            <a href="{% url 'logout' %}" class="btn comment">
+                                Log out
+                            </a>)
                     </p>
                 {% else %}
                     <a href="{% url 'login' %}" class="btn top-menu">

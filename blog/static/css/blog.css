@@ -39,9 +39,17 @@ h4 {
 .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 18pt;
+    font-size: 28pt;
     margin-right: 20px;
-    font-family: 'REM';
+    font-family: 'Poppins';
+}
+
+.label {
+    font-size: 16pt;
+    color: white;
+    font-family: 'Poppins';
+    float: right;
+    margin: 10px 10px 10px 10px;
 }
 
 .post {
