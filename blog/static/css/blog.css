@@ -22,7 +22,7 @@ h4 {
 }
 
 .date {
-    color: #2790c9;
+    color: #528394;
 }
 
 .save {
@@ -39,8 +39,9 @@ h4 {
 .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
+    font-size: 18pt;
     margin-right: 20px;
+    font-family: 'REM';
 }
 
 .post {
@@ -49,7 +50,7 @@ h4 {
 
 .post h2 a,
 .post h2 a:visited {
-    color: #000000;
+    color: #363535;
 }
 
 .post > .date,
@@ -67,4 +68,11 @@ h4 {
 .btn-secondary:hover {
     color: #FFFFFF;
     background-color: #C25100;
+}
+
+.comment {
+    margin: 20px 20px 20px 20px;
+    color: #528394;
+    background: #FFFFFF;
+    border-color: #528394;
 }
